@@ -8,28 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css?h=c1f5dbf651686f4ea359f85ed88222d2">
-    <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = window._paq = window._paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-      _paq.push(["setDomains", ["*.1998code.github.io"]]);
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="https://stats.1998.media/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '7']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <noscript><p><img src="https://stats.1998.media/matomo.php?idsite=7&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-    <!-- End Matomo Code -->
 </head>
 
 <body>
-    <!-- Start: Bootstrap 4 - Full Video Background v2 --><div class="video-background-holder">
+<div class="video-background-holder">
   <div class="video-background-overlay"></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="https://www.apple.com/105/media/us/mac-pro/2019/36178e80-30fd-441c-9a5b-349c6365bb36/design/hero/xlarge.mp4" type="video/mp4">
@@ -43,7 +25,6 @@
     </div>
   </div>
 </div>
-    <!-- End: Bootstrap 4 - Full Video Background v2 -->
     <div class="container" style="padding-left: 0px;padding-right: 0px;">
         <div class="row">
             <div class="col-xl-10" style="padding-bottom: 144px;">
@@ -51,7 +32,6 @@
                     you can do your greatest&nbsp;work.</p><a href="#" style="margin-top: 54px;font-weight: 600;font-size: 28px;font-family: &quot;SF Pro Display&quot;,&quot;SF Pro Icons&quot;,&quot;Helvetica Neue&quot;,&quot;Helvetica&quot;,&quot;Arial&quot;,sans-serif;color: rgb(0,0,0);">Watch the film&nbsp;<i class="la la-play-circle"></i></a></div>
         </div>
     </div>
-    <!-- Start: 1 Row 3 Columns -->
     <div>
         <div class="container">
             <div class="row">
@@ -61,7 +41,30 @@
             </div>
         </div>
     </div>
-    <!-- End: 1 Row 3 Columns -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCHi5MyU6NzdbDUP1n7r90Jv5lLJWs9NOs",
+        authDomain: "bootstrap-themes-os.firebaseapp.com",
+        databaseURL: "https://bootstrap-themes-os.firebaseio.com",
+        projectId: "bootstrap-themes-os",
+        storageBucket: "bootstrap-themes-os.appspot.com",
+        messagingSenderId: "294013755462",
+        appId: "1:294013755462:web:aed693891914c13e67aa47",
+        measurementId: "G-BBEBGDK3WL"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 </body>
